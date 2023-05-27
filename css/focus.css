@@ -1,0 +1,24 @@
+.crayons-layout__sidebar-left {
+  display: none !important;
+}
+
+.crayons-layout__sidebar-right {
+  display: none !important;
+}
+
+.crayons-header {
+  display: none !important;
+}
+
+.crayons-footer {
+  display: none !important;
+}
+
+.crayons-layout__content {
+  margin: -3rem 10rem 0 !important;
+}
+
+.crayons-layout {
+  display: flex !important;
+  justify-content: center;
+}
