@@ -12,7 +12,6 @@ const devto =
   /https:\/\/dev\.to\/[A-Za-z0-9]+\/([A-Za-z0-9]+(-[A-Za-z0-9]+)+)/i;
 
 chrome.action.onClicked.addListener(async (tab) => {
-  console.log(tab);
   if (devto.test(tab.url)) {
     // Retrieve the action badge to check if the extension is 'ON' or 'OFF'
     const prevState = await chrome.action.getBadgeText({ tabId: tab.id });
